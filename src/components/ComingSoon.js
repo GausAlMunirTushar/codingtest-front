@@ -1,7 +1,8 @@
 import Counter from './Counter';
 import SubscriptionForm from './SubscriptionForm';
 
-export default function comingSoon() {
+// component must be exported as default export also component name must start with capital later
+export default function ComingSoon() {
   return (
     <div className="size1 overlay1">
       <div className="size1 flex-col-c-m p-l-15 p-r-15 p-t-50 p-b-50">
